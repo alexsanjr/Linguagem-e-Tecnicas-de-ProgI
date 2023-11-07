@@ -5,7 +5,7 @@
 
 int main() {
 	
-	int i, j,aux = 0, resultado[COLUNA], count = 0;
+	int i, j,aux = 0, resultado[LINHA], count = 0;
 	char mat[LINHA][COLUNA], vect[COLUNA];
 	
 	for (i = 0; i < LINHA; i++) {
@@ -45,8 +45,8 @@ int main() {
 		count = 0;
 	}
 	
-	for (i = 0; i < COLUNA; i++) {
-		printf("%d", resultado[i]);
+	for (i = 0; i < LINHA; i++) {
+		printf("Aluno %d: %d\n", i + 1, resultado[i]);
 	}
 	
 	return 0;
