@@ -3,7 +3,7 @@
 
 int main() {
     int i, avalia;
-    char str1[100], str2[100], str[10] = "alex", st[10] = "alex";
+    char str1[100], str2[100];
 
     printf("Digite uma string: ");
     gets(str1);
