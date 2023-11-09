@@ -13,21 +13,13 @@ int main() {
     printf("Imprimindo as %d primeiras letras do nome...\n", NUM);
 
     if (strlen(string) <= NUM - 1) {
-        for (i = 0; i < strlen(string); i++) {
+        for (i = 0; i < strlen(string); i++)
             if (string[i] != '\0')
                 printf("%c\n", string[i]);
-        }
-    } else {
-        for (i = 0; i < NUM; i++) {
+
+    } else
+        for (i = 0; i < NUM; i++)
             printf("%c\n", string[i]);
-        }
-    }
-
-
-
 
     return 0;
-
-
-
 }
