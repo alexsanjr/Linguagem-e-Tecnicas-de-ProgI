@@ -3,7 +3,7 @@
 
 int main() {
 
-    int i, ascii;
+    int i;
     char str[100];
 
     printf("Digite uma frase em minusculo: ");
