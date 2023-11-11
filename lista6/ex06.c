@@ -6,8 +6,6 @@ int main() {
     int i, j = 0, count = 0;
     char str[100], str2[100];
 
-
-
     printf("Digite uma frase: ");
     gets(str);
 
