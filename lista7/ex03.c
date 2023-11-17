@@ -3,13 +3,11 @@
 int potencia(int base, int expoente) {
     int result = base;
 
-    if (base == 0) {
+    if (base == 0)
         return 0;
-    }
 
-    if (expoente == 0) {
+    if (expoente == 0)
         return 1;
-    }
 
     for (int i = 0; i < expoente - 1; ++i)
             result *= base;
