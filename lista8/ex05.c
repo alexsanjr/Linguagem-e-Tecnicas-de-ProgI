@@ -2,7 +2,7 @@
 #include <string.h>
 
 #define TAM_NOTAS 2
-#define TAM_TURMA 2
+#define TAM_TURMA 10
 
 struct aluno {
     int matricula;
