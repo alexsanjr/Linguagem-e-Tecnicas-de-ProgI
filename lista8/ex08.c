@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define TAM 2
+#define TAM 5
 
 struct pessoa {
     char nome[99];
